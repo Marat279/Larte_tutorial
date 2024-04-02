@@ -1,10 +1,6 @@
 from django.http import HttpResponse
 
 
-def index(request):
-    return HttpResponse('Главная')
-
-
 def molding_list(request):
     return HttpResponse('материалы')
 
