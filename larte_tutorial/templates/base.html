@@ -1,10 +1,20 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
     <meta charset="UTF-8">
-    <title>{% include 'includes/footer.html' %}</title>
+    <title>LARTE DESIGN</title>
 </head>
 <body>
-
+    <header>
+        {% include 'includes/header.html' %}
+    </header>
+    <main>
+        {% block content %}
+            контент сбежал
+        {% endblock %}
+    </main>
+    <footer>
+        {% include 'includes/footer.html' %}
+    </footer>
 </body>
 </html>
